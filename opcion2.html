@@ -1,0 +1,250 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        body {
+            background-color: #2c2c2c;
+            color: #fff;
+            font-family: 'Playfair Display', serif;
+        }
+        .navbar {
+            background-color: #1a1a1a;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 1.2rem;
+            margin-right: 1rem;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ccc;
+        }
+        .navbar-brand {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+        .navbar-toggler {
+            background-color: #4a4a4a;
+            border: 1px solid #6a6a6a;
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        .header-icons {
+            display: flex;
+            align-items: center;
+        }
+        .header-icons a {
+            color: #fff;
+            font-size: 1.2rem;
+            margin-left: 1rem;
+            text-decoration: none;
+        }
+        .header-icons a:hover {
+            color: #ccc;
+        }
+        .header {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .header p {
+            font-size: 1.2rem;
+        }
+        .carousel-item img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 2rem 0;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .section p {
+            font-size: 1rem;
+            text-align: justify;
+        }
+        .circle-img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .footer {
+            background-color: #1a1a1a;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .footer p {
+            font-size: 0.9rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+        .social-icons {
+            margin-bottom: 1rem;
+        }
+        .social-icons a {
+            color: #fff;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #ccc;
+        }
+        .product-card {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 2rem;
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .product-card p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CASA VIRIDIS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <div class="header-icons">
+                    <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                    <a href="#" title="User Account"><i class="fas fa-user"></i></a>
+                    <a href="#" title="Shopping Cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Organic Fruit &amp; Vegetable</h1>
+        <p>Home of Organic &amp; Fresh Produce</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="product-card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://replicate.delivery/xezq/UZTpv2AsezV1VivkfBdpgM0wgrwUzM20erWUekfzUbkYVeJ9E/out-0.png" alt="Basket of assorted fruits and vegetables" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Our Organic Products</h2>
+                                <p>At Organic, we pride ourselves on offering the finest selection of organic fruits and vegetables. Our produce is carefully sourced from local farms that practice sustainable agriculture, ensuring that you receive the freshest and most nutritious products possible.</p>
+                                <p>Our basket of assorted fruits and vegetables is a testament to the rich variety we offer. From crisp apples and juicy oranges to vibrant bell peppers and leafy greens, each item is handpicked at the peak of freshness. We believe in providing our customers with produce that not only tastes great but also supports a healthier lifestyle and environment.</p>
+                                <p>By choosing our organic products, you're not just making a choice for your health, but also supporting sustainable farming practices that benefit our planet. Experience the difference of truly fresh, organic produce with every bite.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="product-card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://replicate.delivery/xezq/sSSFprLxhNZXJFV4nx9bhP1zVS3HntHbHB2PMQeRr9tV5T6JA/out-0.png" alt="Assorted fruits" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Fresh Fruits</h2>
+                                <p>Our selection of fresh fruits includes a variety of seasonal and exotic options. Each fruit is carefully selected to ensure it meets our high standards of quality and taste. Enjoy the natural sweetness and nutritional benefits of our fresh fruits, perfect for snacking, cooking, or adding to your favorite recipes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="product-card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://replicate.delivery/xezq/HFe4buWkNFQXcibszWo7ecXJZnTxReAcwKm32p26el6uKfkeE/out-0.png" alt="Green vegetables" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Green Vegetables</h2>
+                                <p>Our green vegetables are sourced from local farms that use sustainable farming practices. These vegetables are packed with essential nutrients and vitamins, making them a healthy addition to any meal. From leafy greens to crunchy cucumbers, our green vegetables are fresh, flavorful, and perfect for a balanced diet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="https://replicate.delivery/xezq/sSSFprLxhNZXJFV4nx9bhP1zVS3HntHbHB2PMQeRr9tV5T6JA/out-0.png" alt="Assorted fruits" class="circle-img" width="200" height="200">
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://replicate.delivery/xezq/HFe4buWkNFQXcibszWo7ecXJZnTxReAcwKm32p26el6uKfkeE/out-0.png" alt="Green vegetables" class="circle-img" width="200" height="200">
+                <h2>Products</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://replicate.delivery/xezq/iuuMPjfd1n0USiMhJmwyf4oPaSaCmcJ9ue35QKi4msesKfkeE/out-0.png" alt="Tomatoes and other vegetables" class="circle-img" width="200" height="200">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://replicate.delivery/xezq/btTOH5A5ij6sC1GbChjfMuxxpf5MXAq8boDaRLrsefKuKfkeE/out-0.png" alt="Basket of assorted vegetables" class="circle-img" width="200" height="200">
+                <h2>Contact</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>Follow us on social media for fresh updates and organic living tips!</p>
+            <p>&copy; 2023 Organic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
